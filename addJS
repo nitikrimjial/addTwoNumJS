@@ -1,0 +1,7 @@
+<script>
+$('.u-g-wb-break-word').text(function(i, s){
+    return s.replace(/\d+/g, function(m){
+        return parseFloat(m, 10) + 612;
+    });
+});
+</script> 
